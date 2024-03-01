@@ -9,7 +9,7 @@ In addition to parsing resumes, the ResumeRevealer project aims to enhance stand
 An advanced feature of the ResumeRevealer project involves implementing a skill extraction mechanism. This feature mines detailed skills and competencies from project descriptions and position roles within the resume, highlighting the candidate's specific abilities and expertise. Abstractive skill extraction, if achieved, would be considered a bonus feature.
 
 
-# ResumeRevealer: Advanced Resume Parsing Challenge - Primary Challenge
+## ResumeRevealer: Advanced Resume Parsing Challenge - Primary Challenge
 
 This repository contains the code for the ResumeRevealer project, which aims to develop a comprehensive resume parser that can extract detailed information from resumes in various formats such as PDF, JPG, HTML, DOC, etc. The parser accurately classifies text into distinct sections like education, work experience, skills, and sequences them based on dates, where available.
 
