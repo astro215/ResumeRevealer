@@ -90,19 +90,31 @@ def extract_text_from_all_levels(data):
 def main():
     st.title("CV Rankings")
 
-    uploaded_files = st.file_uploader("Upload Files", type=["jpg", "jpeg", "png", "docx", "pdf", "html", "doc"],
-                                      accept_multiple_files=True)
+    # Create tabs
+    menu = ["Home", "About"]
+    choice = st.sidebar.selectbox("Menu", menu)
 
-    if uploaded_files:
-        st.write("Uploaded Resumes:")
-        for resume in uploaded_files:
-            st.write(resume.name)
+    # Home tab
+    if choice == "Home":
+        uploaded_files = st.file_uploader("Upload Files", type=["jpg", "jpeg", "png", "docx", "pdf", "html", "doc"],
+                                          accept_multiple_files=True)
 
-            text = process_file_with_dedoc(resume)
-            text_f = extract_text_from_all_levels(text)
-            if text:
-                st.text(text_f)
-                # Display extracted text on the app
+        if uploaded_files:
+            st.write("Uploaded Resumes:")
+            for resume in uploaded_files:
+                st.write(resume.name)
+
+                text = process_file_with_dedoc(resume)
+                text_f = extract_text_from_all_levels(text)
+                if text:
+                    st.text(text_f)
+                    # Display extracted text on the app
+
+    # About tab
+    elif choice == "About":
+        st.title("About")
+        st.write("This is an about page. You can add information about your app here.")
+
 
 
 if __name__ == "__main__":
