@@ -44,7 +44,7 @@ def process_file_with_dedoc(file):
     output_data = output.to_api_schema().model_dump()
 
     # Remove the temporary file
-    os.remove(file_path)
+    # os.remove(file_path)
 
     return output_data
 
