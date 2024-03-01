@@ -7,3 +7,4 @@ pytesseract
 langchain-openai     
 unstructured
 unstructured[pdf]
+opencv-python-headless
