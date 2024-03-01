@@ -8,7 +8,6 @@ from langchain.chat_models import ChatOpenAI
 from utils import process_file_with_dedoc, extract_text_from_all_levels, generate_formatted_resume, generate_json_structured_resume
 from utils_files import save_parsed_resume_as_text, save_parsed_resume_as_json
 
-load_dotenv()
 
 # os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
