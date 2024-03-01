@@ -252,9 +252,8 @@ timm==0.9.16
 tinycss2==1.2.1
 tokenizers==0.15.2
 tomli==2.0.1
-torch==1.11.0
-torchaudio==2.2.1+cu118
-torchvision==0.12.0
+https://github.com/ispras/dedockerfiles/raw/master/wheels/torch-1.11.0a0+git137096a-cp39-cp39-linux_x86_64.whl
+https://github.com/ispras/dedockerfiles/raw/master/wheels/torchvision-0.12.0a0%2B9b5a3fe-cp39-cp39-linux_x86_64.whl
 tornado==6.4
 tqdm==4.66.2
 traitlets==5.14.1
