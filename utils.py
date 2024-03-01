@@ -1,6 +1,5 @@
 import os
 from dedoc import DedocManager
-from dotenv import load_dotenv
 import json
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate, ChatPromptTemplate
