@@ -92,7 +92,7 @@ def main():
 
     # Create tabs
     menu = ["Home", "About"]
-    choice = st.selectbox("Menu", menu)
+    choice = st.sidebar.radio("Navigation", menu)
 
     # Home tab
     if choice == "Home":
