@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import json
 from langchain.chat_models import ChatOpenAI
-from dotenv import load_dotenv
+
 
 
 from utils import process_file_with_dedoc, extract_text_from_all_levels, generate_formatted_resume, generate_json_structured_resume
