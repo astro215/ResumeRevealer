@@ -151,7 +151,7 @@ opentelemetry-proto==1.23.0
 opentelemetry-sdk==1.23.0
 opentelemetry-semantic-conventions==0.44b0
 opentelemetry-util-http==0.44b0
-orjson==3.9.5
+orjson
 overrides==7.7.0
 packaging==23.2
 pandas==1.5.3
