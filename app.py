@@ -86,7 +86,7 @@ def extract_text_from_all_levels(data):
 
 
 def main():
-    st.title("CV Ranking")
+    st.title("CV Rankings")
 
     uploaded_files = st.file_uploader("Upload Files", type=["jpg", "jpeg", "png", "docx", "pdf", "html", "doc"],
                                       accept_multiple_files=True)
