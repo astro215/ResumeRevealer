@@ -3,7 +3,6 @@ from dedoc import DedocManager
 import json
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate, ChatPromptTemplate
-from dotenv import load_dotenv
 from langchain_core.output_parsers import JsonOutputParser
 
 from prompt_template import template_format_instructions, template
