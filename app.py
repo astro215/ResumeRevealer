@@ -91,13 +91,15 @@ def main():
     st.title("CV Rankings")
 
     # Create tabs
-    menu = ["Home", "About"]
-    choice = st.radio("Navigation", menu)
+    tabs = st.container()
+    with tabs:
+        st.markdown('<style>h1{color: green;}</style>', unsafe_allow_html=True)
+        st.markdown("<h3 style='text-align: center; color: black;'>[Home](#home) | [About](#about)</h3>", unsafe_allow_html=True)
 
     # Home tab
-    if choice == "Home":
-        uploaded_files = st.file_uploader("Upload Files", type=["jpg", "jpeg", "png", "docx", "pdf", "html", "doc"],
-                                          accept_multiple_files=True)
+    with st.container():
+        st.markdown('<h1 id="home">Home</h1>', unsafe_allow_html=True)
+        uploaded_files = st.file_uploader("Upload Files", type=["jpg", "jpeg", "png", "docx", "pdf", "html", "doc"], accept_multiple_files=True)
 
         if uploaded_files:
             st.write("Uploaded Resumes:")
@@ -111,8 +113,8 @@ def main():
                     # Display extracted text on the app
 
     # About tab
-    elif choice == "About":
-        st.title("About")
+    with st.container():
+        st.markdown('<h1 id="about">About</h1>', unsafe_allow_html=True)
         st.write("This is an about page. You can add information about your app here.")
 
 
