@@ -48,6 +48,17 @@ def process_file_with_dedoc(file):
 
     return output_data
 
+def set_background(background_image):
+    page_bg_img = '''
+    <style>
+    body {
+    background-image: url("''' + background_image + '''");
+    background-size: cover;
+    }
+    </style>
+    '''
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+
 
 def extract_text_from_subparagraphs(subparagraphs):
     """
@@ -86,6 +97,7 @@ def extract_text_from_all_levels(data):
 
 
 def main():
+    set_background('https://cdn.mos.cms.futurecdn.net/BfemybeKVXCf9pgX9WCxsc-1200-80.jpg')
     st.title("CV Rankings")
 
     uploaded_files = st.file_uploader("Upload Files", type=["jpg", "jpeg", "png", "docx", "pdf", "html", "doc"],
