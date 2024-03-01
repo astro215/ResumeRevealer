@@ -29,3 +29,4 @@ swig
 zlib1g-dev
 tesseract-ocr
 tesseract-ocr-rus
+libgl
