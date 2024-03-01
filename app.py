@@ -12,7 +12,8 @@ from utils_files import save_parsed_resume_as_text, save_parsed_resume_as_json
 # os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
-chat_llm = ChatOpenAI(model='gpt-4', temperature=0.0)
+chat_llm_text = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.0)
+chat_llm_json = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.0)
 
 def home_page():
     # Home page
@@ -36,13 +37,13 @@ def parser():
             text = process_file_with_dedoc(resume)
             text_f = extract_text_from_all_levels(text)
             if text:
-                parsed_resume = generate_formatted_resume(text_f, chat_llm)
+                parsed_resume = generate_formatted_resume(text_f, chat_llm_text)
 
                 st.text(parsed_resume)
                 # Display extracted text on the app
 
             st.write("Parsed JSON Formated Resume:")
-            parsed_json_resume = generate_json_structured_resume(text_f, chat_llm)
+            parsed_json_resume = generate_json_structured_resume(text_f, chat_llm_json)
             print(parsed_json_resume)
             json_data = json.dumps(parsed_json_resume, indent=4)
             st.json(json_data)
