@@ -49,7 +49,10 @@ def process_file_with_dedoc(file):
     output_data = output.to_api_schema().model_dump()
 
     # Remove the temporary file
-    os.remove(file_path)
+    if os.path.exists(file_path):
+        os.remove(file_path)
+    else:
+        print("File does not exist.")
 
     return output_data
 
