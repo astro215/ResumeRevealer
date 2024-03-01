@@ -23,7 +23,6 @@ libxext6
 make
 pkg-config
 poppler-utils
-pstotext
 shared-mime-info
 software-properties-common
 swig
