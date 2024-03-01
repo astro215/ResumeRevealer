@@ -49,8 +49,6 @@ def process_file_with_dedoc(file):
     return output_data
 
 
-
-
 def extract_text_from_subparagraphs(subparagraphs):
     """
     Recursively extract text from subparagraphs.
@@ -88,35 +86,21 @@ def extract_text_from_all_levels(data):
 
 
 def main():
-    st.title("CV Rankings")
+    st.title("CV Ranking")
 
-    # Create tabs
-    tabs = st.container()
-    with tabs:
-        st.markdown('<style>h1{color: green;}</style>', unsafe_allow_html=True)
-        st.markdown("<h3 style='text-align: center; color: black;'>[Home](#home) | [About](#about)</h3>", unsafe_allow_html=True)
+    uploaded_files = st.file_uploader("Upload Files", type=["jpg", "jpeg", "png", "docx", "pdf", "html", "doc"],
+                                      accept_multiple_files=True)
 
-    # Home tab
-    with st.container():
-        st.markdown('<h1 id="home">Home</h1>', unsafe_allow_html=True)
-        uploaded_files = st.file_uploader("Upload Files", type=["jpg", "jpeg", "png", "docx", "pdf", "html", "doc"], accept_multiple_files=True)
+    if uploaded_files:
+        st.write("Uploaded Resumes:")
+        for resume in uploaded_files:
+            st.write(resume.name)
 
-        if uploaded_files:
-            st.write("Uploaded Resumes:")
-            for resume in uploaded_files:
-                st.write(resume.name)
-
-                text = process_file_with_dedoc(resume)
-                text_f = extract_text_from_all_levels(text)
-                if text:
-                    st.text(text_f)
-                    # Display extracted text on the app
-
-    # About tab
-    with st.container():
-        st.markdown('<h1 id="about">About</h1>', unsafe_allow_html=True)
-        st.write("This is an about page. You can add information about your app here.")
-
+            text = process_file_with_dedoc(resume)
+            text_f = extract_text_from_all_levels(text)
+            if text:
+                st.text(text_f)
+                # Display extracted text on the app
 
 
 if __name__ == "__main__":
