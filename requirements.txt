@@ -211,7 +211,6 @@ python-multipart==0.0.6
 python-pptx==0.6.21
 pytz==2024.1
 PyWavelets==1.4.1
-pywin32
 pywinpty==2.0.13
 PyYAML==6.0.1
 pyzmq==25.1.2
