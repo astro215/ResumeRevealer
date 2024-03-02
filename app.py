@@ -121,7 +121,7 @@ def parser():
             chat_llm_onet = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.4)
 
             result = onet_job_title_to_onet_code(parsed_json_resume,chat_llm_onet)
-             st.write(result)
+            st.write(result)
             
 
             
