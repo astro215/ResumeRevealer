@@ -18,32 +18,36 @@ chat_llm_json = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.0)
 def home_page():
     # Home page
     st.write("""
-    Welcome to ResumeRevealer - Your Comprehensive Resume Parser!
-
     ResumeRevealer is an advanced tool designed to extract detailed information from resumes in various formats 
     such as PDF, HTML, JPG, DOC, and more. It aims to provide a comprehensive analysis of resumes, including 
     categorizing text into distinct sections such as education, work experience, and skills. Additionally, 
     ResumeRevealer addresses several challenges to enhance resume parsing:
+    """)
     
-    **Primary Challenges:**
+    st.subheader("Primary Challenges:")
+    st.write("""
     1. **Comprehensive Parsing:** Extract detailed information from resumes and sequence them based on dates.
     2. **Standardization:** Standardize job titles and occupations against the O-NET database for consistent taxonomy.
     3. **Skill Extraction:** Mine detailed skills and competencies from project descriptions and position roles.
+    """)
     
-    **Key Features:**
+    st.subheader("Key Features:")
+    st.write("""
     - **Resume Parsing:** Extracts detailed information from resumes in various formats.
     - **Text and JSON Output:** Presents parsed information in both text and JSON formats.
     - **Standardized Job Titles:** Ensures consistency in job titles and occupations.
     - **Abstractive Skill Extraction:** Extracts and abstracts skills from project descriptions and job roles.
     - **Career Trajectory Prediction:** Predicts career trajectory based on parsed resume data.
-    - **Downloadable Results:** Allows users to download parsed results in text or JSON format.
+    - **Downloadable Results:** Allows users to download parsed results in text or JSON format for further analysis.
+    """)
     
-    **How to Use:**
-    1. Upload your resume(s) in any supported format (PDF, HTML, JPG, DOC, etc.).
-    2. ResumeRevealer will process the resumes and extract detailed information.
-    3. Explore the parsed information including education, work experience, skills, and more.
-    4. Download the parsed results in either text or JSON format for further analysis.""")
-    # You can add more information about your application here
+    st.subheader("How to Use:")
+    st.write("""
+    1. **Upload Resumes:** Upload your resume(s) in any supported format (PDF, HTML, JPG, DOC, etc.).
+    2. **Parsing:** ResumeRevealer will process the resumes and extract detailed information.
+    3. **Exploration:** Explore the parsed information including education, work experience, skills, and more.
+    4. **Download Results:** Download the parsed results in either text or JSON format for further analysis.
+    """)
 
 
 def parser():
