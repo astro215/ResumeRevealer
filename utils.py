@@ -118,3 +118,45 @@ def generate_json_structured_resume(resume ,chat_llm):
     result = chain.invoke({"text": resume})
 
     return result
+
+
+
+
+
+
+from datetime import datetime
+
+def create_career_trajectory(data):
+    result_dict = {}
+
+    for entry in data:
+        duration = entry.get("duration")
+        position = entry.get("position")
+
+        if duration:
+            # Extracting years using datetime for both numeric and non-numeric months
+            start_date_str, end_date_str = map(str.strip, duration.split('-'))
+            start_date = datetime.strptime(start_date_str, "%b %Y")
+            end_date = datetime.strptime(end_date_str, "%b %Y") if "Present" not in end_date_str else datetime.now()
+
+            # Extracting the year
+            start_year = start_date.year
+
+            result_dict[start_year] = position
+
+    # Check if the result_dict is empty
+    if not result_dict:
+        print(f"Duration not available for {entry['organization']} to create a career trajectory.")
+        output_str = "Duration not available for {entry['organization']} to create a career trajectory."
+        return output_str
+
+    # Sort the result dictionary by year in ascending order
+    sorted_result = sorted(result_dict.items())
+
+    # Convert the sorted result to the desired string format
+    output_str = " -> ".join([f"{year}: {position}" for year, position in sorted_result])
+
+    return output_str
+
+
+
