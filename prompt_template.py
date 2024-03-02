@@ -8,8 +8,8 @@ Warning: Don't greet or write any introduction. Just start with the answer to th
 
 2. Work: Extract all organization names where he/she has worked along with the position held, and the duration of employment.
             Predicted Skills : Also extract skills based on the work experience.
-            Standardized Job Title: Identify the standardized job title for each work experience.
-            Standardized Job Title: Identify the standardized job title for each work experience.Skills based on work experience
+            Job Title: Identify the  job title for each work experience.
+            Job Title: Identify the  job title for each work experience.Skills based on work experience
 
 3. Projects: Extract the details of the projects the candidate has worked on.
                 Predicted Skills : Also extract skills based on each project.
@@ -62,8 +62,8 @@ Warning: Don't greet or write any introduction. Just start with the answer to th
 
 2. Work: Extract all organization names where he/she has worked along with the position held, and the duration of employment.
             Predicted Skills : Also extract skills based on the work experience.
-            Standardized Job Title: Identify the standardized job title for each work experience.
-            Standardized Job Title: Identify the standardized job title for each work experience.Skills based on work experience
+            Job Title: Identify the  job title for each work experience.
+            Job Title: Identify the  job title for each work experience.Skills based on work experience
 
 3. Projects: Extract the details of the projects the candidate has worked on.
                 Predicted Skills : Also extract skills based on each project.
