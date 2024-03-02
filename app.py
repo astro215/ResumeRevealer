@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import json
 from langchain.chat_models import ChatOpenAI
+import shutil
 
 
 
@@ -9,7 +10,7 @@ from utils import process_file_with_dedoc, extract_text_from_all_levels, generat
 from utils_files import save_parsed_resume_as_text, save_parsed_resume_as_json
 from onet import onet_job_title_to_onet_code
 
-
+TEMP_DIR = "temp_files"
 
 # os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
@@ -72,6 +73,7 @@ def parser():
                                       accept_multiple_files=True)
 
     if uploaded_files:
+        shutil.rmtree(TEMP_DIR)
         st.write("Uploaded Resumes:")
         for resume in uploaded_files:
 
