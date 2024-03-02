@@ -99,44 +99,40 @@ def about():
     , Pune.
 
     **Meet Our Team:**""")
-    col1, col2, col3 = st.beta_columns(3)
-
-    # Team Member 1: Jainil Patel
-    with col1:
-        st.image("Images/jainil.jpg", width=100)
-        st.write("""
-        **Name:** Jainil Patel
-        **Branch:** Artificial Intelligence and Machine Learning
-        **LinkedIn:** [Jainil Patel](https://www.linkedin.com/in/jainil-patel)
-        **GitHub:** [jainil23](https://github.com/jainil23)
-        **Email:** jainil23@gmail.com
-        **Phone:** +91 XXXXXXXXXX
-        """)
-        
+    st.image("Images/jainil.jpg", width=100)
+    st.write("""
+    <ul style="list-style-type: none; padding-left: 0;">
+    <li>&#10148; <b>Name:</b> Jainil Patel</li>
+    <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
+    <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/jainil-patel">Jainil Patel</a></li>
+    <li>&#10148; <b>GitHub:</b> <a href="https://github.com/jainil23">jainil23</a></li>
+    <li>&#10148; <b>Email:</b> jainil23@gmail.com</li>
+    <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
+    </ul>""", unsafe_allow_html=True)
+    
     # Team Member 2: Divyam Kumar
-    with col2:
-        st.image("Images/prof.jpg", width=100)
-        st.write("""
-        **Name:** Divyam Kumar
-        **Branch:** Artificial Intelligence and Machine Learning
-        **LinkedIn:** [Divyam Kumar](https://www.linkedin.com/in/divyam-kumar)
-        **GitHub:** [divyamkr100](https://github.com/divyamkr100)
-        **Email:** divyamkr100@gmail.com
-        **Phone:** +91 XXXXXXXXXX
-        """)
+    st.image("Images/prof.jpg", width=100)
+    st.write("""
+    <ul style="list-style-type: none; padding-left: 0;">
+    <li>&#10148; <b>Name:</b> Divyam Kumar</li>
+    <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
+    <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/divyam-kumar">Divyam Kumar</a></li>
+    <li>&#10148; <b>GitHub:</b> <a href="https://github.com/divyamkr100">divyamkr100</a></li>
+    <li>&#10148; <b>Email:</b> divyamkr100@gmail.com</li>
+    <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
+    </ul>""", unsafe_allow_html=True)
     
     # Team Member 3: Amitesh Patra
-    with col3:
-        #st.image("Images/amitesh.jpg", width=100)
-        st.write("""
-        **Name:** Amitesh Patra
-        **Branch:** Artificial Intelligence and Machine Learning
-        **LinkedIn:** [Amitesh Patra](https://www.linkedin.com/in/amitesh-patra)
-        **GitHub:** [amitesh67](https://github.com/amitesh67)
-        **Email:** amitesh67@gmail.com
-        **Phone:** +91 XXXXXXXXXX
-        """)
-
+    #st.image("amitesh_patra.jpg", width=100)
+    st.write("""
+    <ul style="list-style-type: none; padding-left: 0;">
+    <li>&#10148; <b>Name:</b> Amitesh Patra</li>
+    <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
+    <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/amitesh-patra">Amitesh Patra</a></li>
+    <li>&#10148; <b>GitHub:</b> <a href="https://github.com/amitesh67">amitesh67</a></li>
+    <li>&#10148; <b>Email:</b> amitesh67@gmail.com</li>
+    <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
+    </ul>""", unsafe_allow_html=True)
 
     st.write("""If you have any questions, feedback, or suggestions, feel free to reach out to us. We are committed to continuously improving 
     ResumeRevealer to meet your resume parsing needs.
