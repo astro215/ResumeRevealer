@@ -55,7 +55,7 @@ ResumeRevealer utilizes [Dedoc](https://github.com/ispras/dedoc/tree/master) for
 3. [Functionality](#functionality)
 4. [Limitations](#limitations)
 5. [Contributing](#contributing)
-6. [License](#license)
+6. [Acknowledgements](#Acknowledgements)
 
 
 ## <div align="center">Environments</div>
