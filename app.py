@@ -59,7 +59,6 @@ def parser():
 
             
             chat_llm_text = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.6)
-            chat_llm_json = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.6)
 
             st.write(resume.name)
 
@@ -76,6 +75,8 @@ def parser():
             st.write("Parsed JSON Formated Resume:")
            while parsed_json_resume is None:
                 # Execute your code to generate parsed_json_resume
+                chat_llm_json = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.4)
+
                 parsed_json_resume = generate_json_structured_resume(text_f, chat_llm_json)
             
                 # If parsed_json_resume is still empty, wait for a while before retrying
