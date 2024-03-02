@@ -38,6 +38,16 @@ ResumeRevealer utilizes [Dedoc](https://github.com/ispras/dedoc/tree/master) for
 
 > Dedoc is an open universal system for converting documents to a unified output format. It extracts a document’s logical structure and content, its tables, text formatting and metadata. The document’s content is represented as a tree storing headings and lists of any level. Dedoc can be integrated in a document contents and structure analysis system as a separate module.
 
+
+## <div align="center">Environments</div>
+
+<div align="center">
+  <a href="">
+    <img src="Images/Screenshot 2024-03-02 120118.png" width="100%" /></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
+  
+</div>
+
 ## 📝 Table of Contents
 
 1. [Installation](#installation)
@@ -72,7 +82,7 @@ Get started in seconds with our verified environments.
     <img src="https://raw.githubusercontent.com/github/explore/d8574c7bce27faa27fb879bca56dfe351ee66efd/topics/pycharm/pycharm.png" width="10%" /></a>
 </div>
 
-## Installation <a name="Installation"></a>
+## <div align="center">Installation</div>
 
 If you don't want to use docker for running the application, it's possible to run dedoc locally.
 However, it isn't suitable for any operating system (`Ubuntu 20+` is recommended) and
@@ -93,7 +103,7 @@ You should have `python` (`python3.9`, `python3.10` are recommended) and `pip` i
   - We recommend [VS Code](https://code.visualstudio.com/) (Preferred) or [PyCharm](https://www.jetbrains.com/pycharm/).
 - The [Git cli](https://git-scm.com/downloads)
 
-### Environment Installation
+### <div align="center">Environment Installation</div>
 
 Clone the repo
 
