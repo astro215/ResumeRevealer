@@ -50,26 +50,26 @@ ResumeRevealer utilizes [Dedoc](https://github.com/ispras/dedoc/tree/master) for
 
 ## <div align="center">Environments</div>
 
-Get started in seconds with our verified environments. Click each icon below for details.
+Get started in seconds with our verified environments.
 
 <div align="center">
   <a href="">
-    <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-gradient.png" width="10%" /></a>
+    <img src="https://raw.githubusercontent.com/ispras/dedoc/master/dedoc_logo.png" width="10%" /></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
   <a href="">
-    <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-colab-small.png" width="10%" /></a>
+    <img src="https://python.langchain.com/img/brand/wordmark-dark.png" width="40%" /></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
    <a href="">
-     <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-kaggle-small.png" width="10%" /></a>
+     <img src="https://avatars.githubusercontent.com/u/45109972?s=200&v=4" width="10%" /></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
    <a href="">
-     <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-docker-small.png" width="10%" /></a>
+     <img src="https://avatars.githubusercontent.com/u/14957082?s=200&v=4" width="10%" /></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
-   <a href="">
+<!--    <a href="">
      <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-aws-small.png" width="10%" /></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" /> -->
   <a href="">
-    <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-gcp-small.png" width="10%" /></a>
+    <img src="https://raw.githubusercontent.com/github/explore/d8574c7bce27faa27fb879bca56dfe351ee66efd/topics/pycharm/pycharm.png" width="10%" /></a>
 </div>
 
 ## Installation <a name="Installation"></a>
