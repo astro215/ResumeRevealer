@@ -96,7 +96,7 @@ def about():
 
 
 def main():
-    st.title("ResumeRevealers")
+    st.title("ResumeRevealer")
 
     tab1, tab2, tab3 = st.tabs(["Our Project", "Model", "About us"])
     with tab1:
