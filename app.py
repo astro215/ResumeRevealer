@@ -99,11 +99,39 @@ def about():
     , Pune.
 
     **Meet Our Team:**
-    - Jainil Patel: Email: jainil23@gmail.com
-    - Divyam Kumar: Email: divyamkr100@gmail.com
-    - Amitesh Patra: Email: amitesh67@gmail.com
+    st.image("jainil_patel.jpg", width=100)
+    st.write("""
+    - **Name:** Jainil Patel
+    - **Branch:** Artificial Intelligence and Machine Learning
+    - **LinkedIn:** [Jainil Patel](https://www.linkedin.com/in/jainil-patel)
+    - **GitHub:** [jainil23](https://github.com/jainil23)
+    - **Email:** jainil23@gmail.com
+    - **Phone:** +91 XXXXXXXXXX
+    """)
+    
+    # Team Member 2: Divyam Kumar
+    st.image("divyam_kumar.jpg", width=100)
+    st.write("""
+    - **Name:** Divyam Kumar
+    - **Branch:** Artificial Intelligence and Machine Learning
+    - **LinkedIn:** [Divyam Kumar](https://www.linkedin.com/in/divyam-kumar)
+    - **GitHub:** [divyamkr100](https://github.com/divyamkr100)
+    - **Email:** divyamkr100@gmail.com
+    - **Phone:** +91 XXXXXXXXXX
+    """)
+    
+    # Team Member 3: Amitesh Patra
+    st.image("amitesh_patra.jpg", width=100)
+    st.write("""
+    - **Name:** Amitesh Patra
+    - **Branch:** Artificial Intelligence and Machine Learning
+    - **LinkedIn:** [Amitesh Patra](https://www.linkedin.com/in/amitesh-patra)
+    - **GitHub:** [amitesh67](https://github.com/amitesh67)
+    - **Email:** amitesh67@gmail.com
+    - **Phone:** +91 XXXXXXXXXX
+    """)
 
-    If you have any questions, feedback, or suggestions, feel free to reach out to us. We are committed to continuously improving 
+    st.write("""If you have any questions, feedback, or suggestions, feel free to reach out to us. We are committed to continuously improving 
     ResumeRevealer to meet your resume parsing needs.
 
     Thank you for choosing ResumeRevealer!
