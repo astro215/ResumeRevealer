@@ -128,21 +128,18 @@ def about():
         <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
         </ul>""", unsafe_allow_html=True)
     
-    st.markdown("""
+st.markdown("""
 <div style="text-align: center;">
     <img src="Images/amitesh.jpg" width="100">
+    <ul style="list-style-type: none; padding-left: 0;">
+        <li>&#10148; <b>Name:</b> Amitesh Patra</li>
+        <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
+        <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/amitesh-patra">Amitesh Patra</a></li>
+        <li>&#10148; <b>GitHub:</b> <a href="https://github.com/amitesh67">amitesh67</a></li>
+        <li>&#10148; <b>Email:</b> amitesh67@gmail.com</li>
+        <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
+    </ul>
 </div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<ul style="list-style-type: none; padding-left: 0;">
-    <li>&#10148; <b>Name:</b> Amitesh Patra</li>
-    <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
-    <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/amitesh-patra">Amitesh Patra</a></li>
-    <li>&#10148; <b>GitHub:</b> <a href="https://github.com/amitesh67">amitesh67</a></li>
-    <li>&#10148; <b>Email:</b> amitesh67@gmail.com</li>
-    <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
-</ul>
 """, unsafe_allow_html=True)
     
 st.write("""If you have any questions, feedback, or suggestions, feel free to reach out to us. We are committed to continuously improving 
