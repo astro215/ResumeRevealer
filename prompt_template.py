@@ -83,9 +83,9 @@ Warning: if there is no data for any of the fields, leave it blank.
             "Job Title: " Identify the  job title for each work experience. Clean and strip them off suffixes, prefixes and seniority.
 
             " Predicted Skills : " and separate multiple entries with a comma for each work experience.
-        Note: Separate each work experience with a new line.
-        Warning: Don't print this text - "Organization Name, Location, Position, Start Date - End Date" as it is in the output  .
-
+            Note: Separate each work experience with a new line.
+             Warning: Don't print this text - "Organization Name, Location, Position, Start Date - End Date" as it is in the output  .
+            Note: each Organization details should come one by one
 
         "Project Name, Start Date - End Date, Project Description " and separate multiple entries with a comma and a new line for each project. ( 
             " Predicted Skills : " and separate multiple entries with a comma for each project.
