@@ -123,7 +123,7 @@ def about():
     </ul>""", unsafe_allow_html=True)
     
     # Team Member 3: Amitesh Patra
-    #st.image("amitesh_patra.jpg", width=100)
+    st.image("Images/amitesh.jpg", width=100)
     st.write("""
     <ul style="list-style-type: none; padding-left: 0;">
     <li>&#10148; <b>Name:</b> Amitesh Patra</li>
