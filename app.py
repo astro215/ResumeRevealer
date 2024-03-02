@@ -96,8 +96,7 @@ def parser():
 
                 parsed_json_resume = generate_json_structured_resume(text_f, chat_llm_json)
             
-                # If parsed_json_resume is still empty, wait for a while before retrying
-                if parsed_json_resume is None:
+    
             json_data = json.dumps(parsed_json_resume, indent=4)
             st.json(json_data)
 
