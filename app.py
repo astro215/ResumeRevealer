@@ -12,8 +12,6 @@ from utils_files import save_parsed_resume_as_text, save_parsed_resume_as_json
 # os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
-chat_llm_text = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.5)
-chat_llm_json = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.5)
 
 def home_page():
     # Home page
@@ -58,6 +56,10 @@ def parser():
     if uploaded_files:
         st.write("Uploaded Resumes:")
         for resume in uploaded_files:
+
+            
+            chat_llm_text = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.6)
+            chat_llm_json = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.6)
 
             st.write(resume.name)
 
