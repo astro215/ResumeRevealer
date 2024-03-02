@@ -108,13 +108,13 @@ You should have `python` (`python3.9`, `python3.10` are recommended) and `pip` i
 Clone the repo
 
 ```bash
-git clone https://github.com/MarcSkovMadsen/awesome-streamlit.git
+https://github.com/astro215/ResumeRevealer.git
 ```
 
 cd into the project root folder
 
 ```bash
-cd awesome-streamlit
+cd streamlit-Directory
 ```
 
 #### Create virtual environment
@@ -158,7 +158,7 @@ conda create -n awesome-streamlit python
 and activate environment.
 
 ```bash
-activate awesome-streamlit
+activate atreamlit
 ```
 
 If you are on windows you need to install some things required by GeoPandas by following [these instructions](https://geoffboeing.com/2014/09/using-geopandas-windows/).
@@ -166,7 +166,7 @@ If you are on windows you need to install some things required by GeoPandas by f
 Then you should install the local requirements
 
 ```bash
-pip install -r requirements_local.txt
+pip install -r requirements.txt
 ```
 
 ### Build and run the Application Locally
@@ -261,8 +261,10 @@ Contributions to the ResumeRevealer project are welcome! To contribute, please f
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Dedoc](https://github.com/ispras/dedoc)
+* [Langchain-LLM-Model](https://github.com/langchain-ai/langchain)
+* [Open-ai](https://github.com/openai)
+  
 
 
 
