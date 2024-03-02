@@ -76,7 +76,7 @@ def parser():
         for resume in uploaded_files:
 
             
-            chat_llm_text = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.6)
+            chat_llm_text = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.0)
 
             st.write(resume.name)
 
