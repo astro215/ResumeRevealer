@@ -145,7 +145,7 @@ st.markdown("""
 </ul>
 """, unsafe_allow_html=True)
     
-    st.write("""If you have any questions, feedback, or suggestions, feel free to reach out to us. We are committed to continuously improving 
+st.write("""If you have any questions, feedback, or suggestions, feel free to reach out to us. We are committed to continuously improving 
     ResumeRevealer to meet your resume parsing needs.
 
     Thank you for choosing ResumeRevealer!
