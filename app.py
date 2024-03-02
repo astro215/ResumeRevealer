@@ -115,6 +115,16 @@ def parser():
                 st.download_button(label="Download JSON File", data=open(json_file_path, 'rb'),
                                    file_name=f"{resume.name}.json", mime="application/json")
 
+            st.write("Final ONET Parsed Formated Resume:")
+            chat_llm_onet = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.4)
+
+            result = onet_job_title_to_onet_code(parsed_json_resume,chat_llm_onet)
+            json_data_onet = json.dumps(parsed_json_resume, indent=4)
+            st.json(json_data_onet)
+            
+
+            
+
 
 def about():
     st.title("About This Application")
