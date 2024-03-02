@@ -74,8 +74,12 @@ def parser():
                 # Display extracted text on the app
 
             st.write("Parsed JSON Formated Resume:")
-            parsed_json_resume = generate_json_structured_resume(text_f, chat_llm_json)
-            print(parsed_json_resume)
+           while parsed_json_resume is None:
+                # Execute your code to generate parsed_json_resume
+                parsed_json_resume = generate_json_structured_resume(text_f, chat_llm_json)
+            
+                # If parsed_json_resume is still empty, wait for a while before retrying
+                if parsed_json_resume is None:
             json_data = json.dumps(parsed_json_resume, indent=4)
             st.json(json_data)
 
