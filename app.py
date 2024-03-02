@@ -130,7 +130,7 @@ def about():
     
     # Team Member 3: Amitesh Patra
     st.markdown('<p style="text-align:center;">Team Member 3: Amitesh Patra</p>', unsafe_allow_html=True)
-    st.image("Images/amitesh_patra.jpg", width=100)
+    st.image("Images/amitesh.jpg", width=100)
     st.write("""
     <ul style="list-style-type: none; padding-left: 0;">
     <li>&#10148; <b>Name:</b> Amitesh Patra</li>
