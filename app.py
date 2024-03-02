@@ -65,34 +65,23 @@ def parser():
 def about():
     st.title("About This Application")
     st.write("""
-    Welcome to the CV Rankings application!
-    
-    This application is designed to help you analyze and rank CVs (resumes) based on their content. 
-    You can upload CVs in various formats such as PDF, Word documents, HTML, and images. 
-    Once uploaded, the application will process the CVs, extract relevant information, and provide insights 
-    to help you make informed decisions.
-    
-    **Key Features:**
-    
-    - Upload CVs in multiple formats including PDF, Word documents, HTML, and images.
-    - Extract and analyze information from the CVs.
-    - Rank CVs based on specified criteria.
-    - Visualize insights and statistics.
-    
-    **How to Use:**
-    
-    1. Click on the "Upload Files" button in the navigation menu to upload one or more CVs.
-    2. Once uploaded, the application will process the CVs and display extracted information.
-    3. Navigate to the "Rankings" section to view rankings based on specified criteria.
-    4. Explore the visualizations and insights to make informed decisions.
-    
-    **About the Developer:**
-    
-    This application is developed by [Your Name]. 
-    If you have any feedback, suggestions, or issues, feel free to reach out to [Your Email Address].
-    
-    Enjoy analyzing CVs with CV Rankings!
+    ResumeRevealer is developed by a team of passionate developers dedicated to revolutionizing the resume parsing process 
+    and empowering users with comprehensive insights into their resumes. Our team comprises individuals with expertise in 
+    software development, data analysis, and machine learning.
+
+    **Meet Our Team:**
+    - John Doe: Lead Developer, Email: john.doe@example.com
+    - Jane Smith: Data Analyst, Email: jane.smith@example.com
+    - Michael Johnson: Machine Learning Engineer, Email: michael.johnson@example.com
+
+    If you have any questions, feedback, or suggestions, feel free to reach out to us. We are committed to continuously improving 
+    ResumeRevealer to meet your resume parsing needs.
+
+    Thank you for choosing ResumeRevealer!
     """)
+    
+    
+   
 
 
 def main():
