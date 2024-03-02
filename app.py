@@ -102,7 +102,7 @@ def about():
     **Meet Our Team:**""")
 
     # Use columns layout option for horizontal arrangement
-    col1, col2 = st.columns(2)
+    col1, col2,col3 = st.columns(3)
 
     # Team Member 1: Jainil Patel
     with col1:
@@ -131,9 +131,9 @@ def about():
         </ul>""", unsafe_allow_html=True)
     
     # Team Member 3: Amitesh Patra
-    st.markdown("""
-    <div style="text-align: center;">
-        <img src="Images/amitesh.jpg" width="100">
+   with col3:
+        st.image("Images/amitesh.jpg",width=100)
+        st.write("""
         <ul style="list-style-type: none; padding-left: 0;">
             <li>&#10148; <b>Name:</b> Amitesh Patra</li>
             <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
@@ -142,7 +142,6 @@ def about():
             <li>&#10148; <b>Email:</b> amitesh67@gmail.com</li>
             <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
         </ul>
-    </div>
     """, unsafe_allow_html=True)
 
     st.write("""
