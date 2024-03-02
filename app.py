@@ -99,7 +99,7 @@ def about():
     , Pune.
 
     **Meet Our Team:**""")
-    st.image("jainil.jpg", width=100)
+    st.image("Images/jainil.jpg", width=100)
     st.write("""
     **Name:** Jainil Patel
     **Branch:** Artificial Intelligence and Machine Learning
