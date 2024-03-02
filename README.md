@@ -77,7 +77,7 @@ Get started in seconds with our verified environments.
 If you don't want to use docker for running the application, it's possible to run dedoc locally.
 However, it isn't suitable for any operating system (`Ubuntu 20+` is recommended) and
 there may be not enough machine's resources for its work.
-You should have `python` (`python3.8`, `python3.9` are recommended) and `pip` installed.
+You should have `python` (`python3.9`, `python3.10` are recommended) and `pip` installed.
 
 ## Getting Started with the Awesome Streamlit Repository
 
@@ -85,7 +85,7 @@ You should have `python` (`python3.8`, `python3.9` are recommended) and `pip` in
 
 - An Operating System like Windows, OsX or Linux
 - A working [Python](https://www.python.org/) installation.
-  - We recommend using 64bit Python 3.7.4.
+  - We recommend using 64bit Python 3.8
 - a Shell
   - We recommend [Git Bash](https://git-scm.com/downloads) for Windows 8.1
   - We recommend [wsl](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) for For Windows 10 ,11 or earlier.
@@ -93,7 +93,7 @@ You should have `python` (`python3.8`, `python3.9` are recommended) and `pip` in
   - We recommend [VS Code](https://code.visualstudio.com/) (Preferred) or [PyCharm](https://www.jetbrains.com/pycharm/).
 - The [Git cli](https://git-scm.com/downloads)
 
-### Installation
+### Environment Installation
 
 Clone the repo
 
@@ -142,7 +142,7 @@ In a Windows terminal it's
 Create virtual environment named awesome-streamlit
 
 ```bash
-conda create -n awesome-streamlit python=3.7.4
+conda create -n awesome-streamlit python
 ```
 
 and activate environment.
@@ -159,27 +159,13 @@ Then you should install the local requirements
 pip install -r requirements_local.txt
 ```
 
-Finally you need to install some [spacy](https://spacy.io/) dependencies
-
-```bash
-python -m spacy download en_core_web_sm
-python -m spacy download en_core_web_md
-python -m spacy download de_core_news_sm
-```
-
 ### Build and run the Application Locally
 
 ```bash
 streamlit run app.py
 ```
 
-or as a Docker container via
-
-```bash
-invoke docker.build --rebuild
-invoke docker.run-server
-```
-### 1. Install necessary packages:
+### 2. Install necessary packages :
 ```shell
 sudo apt-get install -y libreoffice djvulibre-bin unzip unrar
 ```
@@ -267,12 +253,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+
 
 
 
