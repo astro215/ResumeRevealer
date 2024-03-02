@@ -98,7 +98,7 @@ def about():
     and empowering users with comprehensive insights into their resumes. Our team comprises third year Artificial Intelligence and Machine Learning students of Symbiosis Institute of technology
     , Pune.
 
-    **Meet Our Team:**
+    **Meet Our Team:**""")
     st.image("jainil_patel.jpg", width=100)
     st.write("""
     - **Name:** Jainil Patel
