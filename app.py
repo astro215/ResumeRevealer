@@ -95,34 +95,41 @@ def about():
     st.title("About This Application")
     st.write("""
     ResumeRevealer is developed by a team of passionate developers dedicated to revolutionizing the resume parsing process 
-    and empowering users with comprehensive insights into their resumes. Our team comprises third year Artificial Intelligence and Machine Learning students of Symbiosis Institute of technology
-    , Pune.
+    and empowering users with comprehensive insights into their resumes. Our team comprises third year Artificial Intelligence and Machine Learning students of Symbiosis Institute of Technology, Pune.
 
     **Meet Our Team:**""")
-    st.image("Images/jainil.jpg", width=100)
-    st.write("""
-    <ul style="list-style-type: none; padding-left: 0;">
-    <li>&#10148; <b>Name:</b> Jainil Patel</li>
-    <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
-    <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/jainil-patel">Jainil Patel</a></li>
-    <li>&#10148; <b>GitHub:</b> <a href="https://github.com/jainil23">jainil23</a></li>
-    <li>&#10148; <b>Email:</b> jainil23@gmail.com</li>
-    <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
-    </ul>""", unsafe_allow_html=True)
+
+    # Use columns layout option for horizontal arrangement
+    col1, col2 = st.columns(2)
+
+    # Team Member 1: Jainil Patel
+    with col1:
+        st.image("Images/jainil.jpg", width=100)
+        st.write("""
+        <ul style="list-style-type: none; padding-left: 0;">
+        <li>&#10148; <b>Name:</b> Jainil Patel</li>
+        <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
+        <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/jainil-patel">Jainil Patel</a></li>
+        <li>&#10148; <b>GitHub:</b> <a href="https://github.com/jainil23">jainil23</a></li>
+        <li>&#10148; <b>Email:</b> jainil23@gmail.com</li>
+        <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
+        </ul>""", unsafe_allow_html=True)
     
     # Team Member 2: Divyam Kumar
-    st.image("Images/prof.jpg", width=100)
-    st.write("""
-    <ul style="list-style-type: none; padding-left: 0;">
-    <li>&#10148; <b>Name:</b> Divyam Kumar</li>
-    <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
-    <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/divyam-kumar">Divyam Kumar</a></li>
-    <li>&#10148; <b>GitHub:</b> <a href="https://github.com/divyamkr100">divyamkr100</a></li>
-    <li>&#10148; <b>Email:</b> divyamkr100@gmail.com</li>
-    <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
-    </ul>""", unsafe_allow_html=True)
+    with col2:
+        st.image("Images/prof.jpg", width=100)
+        st.write("""
+        <ul style="list-style-type: none; padding-left: 0;">
+        <li>&#10148; <b>Name:</b> Divyam Kumar</li>
+        <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
+        <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/divyam-kumar">Divyam Kumar</a></li>
+        <li>&#10148; <b>GitHub:</b> <a href="https://github.com/divyamkr100">divyamkr100</a></li>
+        <li>&#10148; <b>Email:</b> divyamkr100@gmail.com</li>
+        <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
+        </ul>""", unsafe_allow_html=True)
     
     # Team Member 3: Amitesh Patra
+    st.markdown('<p style="text-align:center;">Team Member 3: Amitesh Patra</p>', unsafe_allow_html=True)
     st.image("Images/amitesh.jpg", width=100)
     st.write("""
     <ul style="list-style-type: none; padding-left: 0;">
@@ -133,7 +140,7 @@ def about():
     <li>&#10148; <b>Email:</b> amitesh67@gmail.com</li>
     <li>&#10148; <b>Phone:</b> +91 XXXXXXXXXX</li>
     </ul>""", unsafe_allow_html=True)
-
+    
     st.write("""If you have any questions, feedback, or suggestions, feel free to reach out to us. We are committed to continuously improving 
     ResumeRevealer to meet your resume parsing needs.
 
