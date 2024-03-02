@@ -43,9 +43,10 @@ Warning: if there is no data for any of the fields, leave it blank.
         "Skills: " Skills under the skills section.
                     Classify them as technical and non-technical skills if possible.
 
-        "Career Trajectory: " and separate multiple entries with a -> . Career Trajectory should be in acsending order with respect to date of joining.
+        "Career Trajectory: " and separate multiple entries with a -> . Career Trajectory should be in ascending order with respect to date of joining.
                 eg1 : "Data Analyst -> Data Scientist -> Senior Data Scientist"
                 eg2 : "School Name -> College Name -> University Name -> Job Title -> Job Title"
+                 Note :  job titles  , school names or College/University are permissible in  Career Trajectory
 
 Resume: {text}
 
@@ -96,9 +97,10 @@ Warning: if there is no data for any of the fields, leave it blank.
         "Skills: " Skills under the skills section.
                     Classify them as technical and non-technical skills if possible.
 
-        "Career Trajectory: " and separate multiple entries with a -> . Career Trajectory should be in acsending order with respect to date of joining.
+        "Career Trajectory: " and separate multiple entries with a -> . Career Trajectory should be in ascending order with respect to date of joining.
                 eg1 : "Data Analyst -> Data Scientist -> Senior Data Scientist"
                 eg2 : "School Name -> College Name -> University Name -> Job Title -> Job Title"
+                Note :  job titles  , school names or College/University are permissible in  Career Trajectory
 
 Resume: {text}
 
