@@ -99,7 +99,7 @@ def about():
     , Pune.
 
     **Meet Our Team:**""")
-    st.image("jainil_patel.jpg", width=100)
+    # st.image("jainil_patel.jpg", width=100)
     st.write("""
     - **Name:** Jainil Patel
     - **Branch:** Artificial Intelligence and Machine Learning
@@ -110,7 +110,7 @@ def about():
     """)
     
     # Team Member 2: Divyam Kumar
-    st.image("divyam_kumar.jpg", width=100)
+    # st.image("divyam_kumar.jpg", width=100)
     st.write("""
     - **Name:** Divyam Kumar
     - **Branch:** Artificial Intelligence and Machine Learning
@@ -121,7 +121,7 @@ def about():
     """)
     
     # Team Member 3: Amitesh Patra
-    st.image("amitesh_patra.jpg", width=100)
+    # st.image("amitesh_patra.jpg", width=100)
     st.write("""
     - **Name:** Amitesh Patra
     - **Branch:** Artificial Intelligence and Machine Learning
