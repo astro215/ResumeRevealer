@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://www.mined2024.tech/logo.png" alt="Logo" width="500" height="350">
   </a>
 
   <p align="center">
@@ -13,9 +13,9 @@
     <br />
     <br />
     <a href="https://resume-revealer.streamlit.app/">View Demo</a>
-    ·
+    
 <!--     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a> -->
-    ·
+    
 <!--     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
   </p>
 </div>
