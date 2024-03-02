@@ -90,6 +90,8 @@ def parser():
 
             st.write("Parsed JSON Formated Resume:")
             
+            parsed_json_resume = None
+
             while parsed_json_resume is None:
                 # Execute your code to generate parsed_json_resume
                 chat_llm_json = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.4)
