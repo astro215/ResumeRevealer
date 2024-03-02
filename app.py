@@ -73,7 +73,8 @@ def parser():
                 # Display extracted text on the app
 
             st.write("Parsed JSON Formated Resume:")
-           while parsed_json_resume is None:
+            
+            while parsed_json_resume is None:
                 # Execute your code to generate parsed_json_resume
                 chat_llm_json = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.4)
 
