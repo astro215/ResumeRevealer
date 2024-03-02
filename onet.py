@@ -15,7 +15,7 @@ def onet_job_title_to_onet_code(resume_json , chat_llm ):
     new_dict = {}
     for i in resume_json['work']:
         key = i['organization']
-        value = i['job_title']
+        value = i['standardized_job_title']
 
         # make a new dictionary with the key and value
         new_dict[key] = value
