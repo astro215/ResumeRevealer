@@ -1,4 +1,6 @@
 # ResumeRevealer: Advanced Resume Parsing Challenge
+
+
 ## Primary Challenge
 The primary challenge of the ResumeRevealer project is to develop a comprehensive resume parser capable of extracting detailed information from resumes in various formats, including PDF, JPG, HTML, DOC, etc. The parser should accurately classify text into distinct sections such as education, work experience, and skills. Additionally, it should sequence these sections based on dates wherever available.
 
@@ -17,7 +19,7 @@ ResumeRevealer utilizes [Dedoc](https://github.com/ispras/dedoc/tree/master) for
 
 > Dedoc is an open universal system for converting documents to a unified output format. It extracts a document’s logical structure and content, its tables, text formatting and metadata. The document’s content is represented as a tree storing headings and lists of any level. Dedoc can be integrated in a document contents and structure analysis system as a separate module.
 
-## Table of Contents
+## 📝 Table of Contents
 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -25,6 +27,31 @@ ResumeRevealer utilizes [Dedoc](https://github.com/ispras/dedoc/tree/master) for
 4. [Limitations](#limitations)
 5. [Contributing](#contributing)
 6. [License](#license)
+
+
+## <div align="center">Environments</div>
+
+Get started in seconds with our verified environments. Click each icon below for details.
+
+<div align="center">
+  <a href="">
+    <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-gradient.png" width="10%" /></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
+  <a href="">
+    <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-colab-small.png" width="10%" /></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
+   <a href="">
+     <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-kaggle-small.png" width="10%" /></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
+   <a href="">
+     <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-docker-small.png" width="10%" /></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
+   <a href="">
+     <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-aws-small.png" width="10%" /></a>
+  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="5%" alt="" />
+  <a href="">
+    <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-gcp-small.png" width="10%" /></a>
+</div>
 
 ## Installation <a name="Installation"></a>
 
@@ -112,3 +139,28 @@ Contributions to the ResumeRevealer project are welcome! To contribute, please f
 2. Create a new branch for your feature or bug fix.
 3. Make the necessary changes and commit them.
 4. Submit a pull request detailing your changes.
+
+<!-- ACKNOWLEDGMENTS -->
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@Jainil Patel](https://github.com/astro215) - Contributor
+- [@Divyam Kumar](https://github.com/Divyam-kr) - Contributor
+- [@Amitesh Patra](https://github.com/amitesh30) - Contributor
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
