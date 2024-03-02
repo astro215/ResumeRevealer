@@ -6,7 +6,7 @@ import shutil
 
 
 
-from utils import process_file_with_dedoc, extract_text_from_all_levels, generate_formatted_resume, generate_json_structured_resume
+from utils import process_file_with_dedoc, extract_text_from_all_levels, generate_formatted_resume, generate_json_structured_resume, create_career_trajectory
 from utils_files import save_parsed_resume_as_text, save_parsed_resume_as_json
 from onet import onet_job_title_to_onet_code
 
@@ -127,6 +127,11 @@ def parser():
                 json_file_path = save_parsed_resume_as_json(parsed_json_resume, resume.name)
                 st.download_button(label="Download JSON File", data=open(json_file_path, 'rb'),
                                    file_name=f"{resume.name}.json", mime="application/json")
+
+            career_trajectory = create_career_trajectory(parsed_json_resume['work'])
+
+            st.write("Final Carrier  trajectory :")
+            st.write(career_trajectory)
 
             st.write("Final ONET Parsed Formated Resume:")
             chat_llm_onet = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.4)
