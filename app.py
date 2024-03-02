@@ -11,6 +11,9 @@ from utils_files import save_parsed_resume_as_text, save_parsed_resume_as_json
 from onet import onet_job_title_to_onet_code
 
 TEMP_DIR = "temp_files"
+TEMP_DIR_TEXT = "temp_files_text"
+TEMP_DIR_JSON = "temp_files_json"
+
 
 
 # os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
