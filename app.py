@@ -66,13 +66,13 @@ def about():
     st.title("About This Application")
     st.write("""
     ResumeRevealer is developed by a team of passionate developers dedicated to revolutionizing the resume parsing process 
-    and empowering users with comprehensive insights into their resumes. Our team comprises individuals with expertise in 
-    software development, data analysis, and machine learning.
+    and empowering users with comprehensive insights into their resumes. Our team comprises third year Artificial Intelligence and Machine Learning students of Symbiosis Institute of technology
+    , Pune.
 
     **Meet Our Team:**
-    - John Doe: Lead Developer, Email: john.doe@example.com
-    - Jane Smith: Data Analyst, Email: jane.smith@example.com
-    - Michael Johnson: Machine Learning Engineer, Email: michael.johnson@example.com
+    - Jainil Patel: Email: jainil23@gmail.com
+    - Divyam Kumar: Email: divyamkr100@gmail.com
+    - Amitesh Patra: Email: amitesh67@gmail.com
 
     If you have any questions, feedback, or suggestions, feel free to reach out to us. We are committed to continuously improving 
     ResumeRevealer to meet your resume parsing needs.
