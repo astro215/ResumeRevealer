@@ -79,6 +79,106 @@ However, it isn't suitable for any operating system (`Ubuntu 20+` is recommended
 there may be not enough machine's resources for its work.
 You should have `python` (`python3.8`, `python3.9` are recommended) and `pip` installed.
 
+## Getting Started with the Awesome Streamlit Repository
+
+### Prerequisites
+
+- An Operating System like Windows, OsX or Linux
+- A working [Python](https://www.python.org/) installation.
+  - We recommend using 64bit Python 3.7.4.
+- a Shell
+  - We recommend [Git Bash](https://git-scm.com/downloads) for Windows 8.1
+  - We recommend [wsl](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) for For Windows 10 ,11 or earlier.
+- an Editor
+  - We recommend [VS Code](https://code.visualstudio.com/) (Preferred) or [PyCharm](https://www.jetbrains.com/pycharm/).
+- The [Git cli](https://git-scm.com/downloads)
+
+### Installation
+
+Clone the repo
+
+```bash
+git clone https://github.com/MarcSkovMadsen/awesome-streamlit.git
+```
+
+cd into the project root folder
+
+```bash
+cd awesome-streamlit
+```
+
+#### Create virtual environment
+
+##### via python
+
+Then you should create a virtual environment named .venv
+
+```bash
+python -m venv .venv
+```
+
+and activate the environment.
+
+On Linux, OsX or in a Windows Git Bash terminal it's
+
+```bash
+source .venv/Scripts/activate
+```
+
+or alternatively
+
+```bash
+source .venv/bin/activate
+```
+
+In a Windows terminal it's
+
+```bash
+.venv/Scripts/activate.bat
+```
+
+##### or via anaconda
+
+Create virtual environment named awesome-streamlit
+
+```bash
+conda create -n awesome-streamlit python=3.7.4
+```
+
+and activate environment.
+
+```bash
+activate awesome-streamlit
+```
+
+If you are on windows you need to install some things required by GeoPandas by following [these instructions](https://geoffboeing.com/2014/09/using-geopandas-windows/).
+
+Then you should install the local requirements
+
+```bash
+pip install -r requirements_local.txt
+```
+
+Finally you need to install some [spacy](https://spacy.io/) dependencies
+
+```bash
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_md
+python -m spacy download de_core_news_sm
+```
+
+### Build and run the Application Locally
+
+```bash
+streamlit run app.py
+```
+
+or as a Docker container via
+
+```bash
+invoke docker.build --rebuild
+invoke docker.run-server
+```
 ### 1. Install necessary packages:
 ```shell
 sudo apt-get install -y libreoffice djvulibre-bin unzip unrar
