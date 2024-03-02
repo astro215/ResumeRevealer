@@ -121,7 +121,8 @@ def parser():
             chat_llm_onet = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.4)
 
             result = onet_job_title_to_onet_code(parsed_json_resume,chat_llm_onet)
-            st.write(result)
+            json_data_onet = json.dumps(result , indent=4)
+            st.json(json_data_onet)
             
 
             
@@ -146,7 +147,7 @@ def about():
         <li>&#10148; <b>Name:</b> Jainil Patel</li>
         <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
         <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/jainil-patel-2857ab202/">Jainil Patel</a></li>
-        <li>&#10148; <b>GitHub:</b> <a href="https://github.com/jainil23">jainil23</a></li>
+        <li>&#10148; <b>GitHub:</b> <a href="https://github.com/astro215">jainil23</a></li>
         <li>&#10148; <b>Email:</b> jainil.patel.btech2021@sitpune.edu.in</li>
         <li>&#10148; <b>Phone:</b> +91 7774036728</li>
         </ul>""", unsafe_allow_html=True)
@@ -159,7 +160,7 @@ def about():
         <li>&#10148; <b>Name:</b> Divyam Kumar</li>
         <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
         <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/divyam-kumar-2462a2264/">Divyam Kumar</a></li>
-        <li>&#10148; <b>GitHub:</b> <a href="https://github.com/divyamkr100">divyamkr100</a></li>
+        <li>&#10148; <b>GitHub:</b> <a href="https://github.com/Divyam-kr">divyamkr100</a></li>
         <li>&#10148; <b>Email:</b> divyamkr100@gmail.com</li>
         <li>&#10148; <b>Phone:</b> +91 9430957531</li>
         </ul>""", unsafe_allow_html=True)
@@ -172,7 +173,7 @@ def about():
             <li>&#10148; <b>Name:</b> Amitesh Patra</li>
             <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
             <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/amitesh30patra/">Amitesh Patra</a></li>
-            <li>&#10148; <b>GitHub:</b> <a href="https://github.com/amitesh67">amitesh67</a></li>
+            <li>&#10148; <b>GitHub:</b> <a href="https://github.com/amitesh30">amitesh67</a></li>
             <li>&#10148; <b>Email:</b> amitesh.patra.btech2021@sitpune.edu.in</li>
             <li>&#10148; <b>Phone:</b> +91 9325409292</li>
         </ul>
