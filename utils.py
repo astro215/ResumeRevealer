@@ -7,6 +7,8 @@ from langchain_core.output_parsers import JsonOutputParser
 
 from prompt_template import template_format_instructions, template
 from ResumeStructure import ResumeStructure
+from datetime import datetime
+
 
 # Create a directory to store temporary files
 TEMP_DIR = "temp_files"
@@ -119,12 +121,6 @@ def generate_json_structured_resume(resume ,chat_llm):
 
     return result
 
-
-
-
-
-
-from datetime import datetime
 
 def create_career_trajectory(data):
     result_dict = {}
