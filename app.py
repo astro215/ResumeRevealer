@@ -119,7 +119,7 @@ def about():
     with col2:
         st.image("Images/prof.jpg", width=100)
         st.write("""
-        <ul style="list-style-type: none; padding-left: 0;">
+        <ul style="list-style-type: none; padding-left: 0;padding-bottom: 20px">
         <li>&#10148; <b>Name:</b> Divyam Kumar</li>
         <li>&#10148; <b>Branch:</b> Artificial Intelligence and Machine Learning</li>
         <li>&#10148; <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/divyam-kumar">Divyam Kumar</a></li>
