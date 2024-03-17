@@ -17,12 +17,8 @@
 </div>
 
 <!-- VIDEO EMBED -->
-<div align="center">
-  <p align="center">
-    Output Vedio
-  </p>
-  <iframe width="560" height="315" src="https://github.com/astro215/ResumeRevealer/edit/main/output/demo_output.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+[![Demo Output](https://img.youtube.com/vi/VIDEO_ID_HERE/maxresdefault.jpg)](https://github.com/astro215/ResumeRevealer/blob/main/output/demo_output.mp4)
+
 
 
 ## Primary Challenge
