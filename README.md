@@ -17,7 +17,7 @@
 </div>
 
 <!-- VIDEO EMBED -->
-[![Demo Output](https://img.youtube.com/vi/VIDEO_ID_HERE/maxresdefault.jpg)](https://github.com/astro215/ResumeRevealer/blob/main/output/demo_output.mp4)
+https://github.com/astro215/ResumeRevealer/assets/111174198/26e90a1c-5852-4799-b0cc-2ec702266136
 
 
 
