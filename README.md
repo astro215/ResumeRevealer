@@ -11,7 +11,7 @@
     <br />
     <br />
     <br />
-    <a href="https://resume-revealer.streamlit.app/">View Demo</a>
+    <a href="https://resume-revealer.streamlit.app/">Demo (Streamlit)</a>
     
   </p>
 </div>
