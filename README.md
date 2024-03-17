@@ -9,16 +9,21 @@
   <p align="center">
     ResumeRevealer: Advanced Resume Parsing 
     <br />
-<!--     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
     <a href="https://resume-revealer.streamlit.app/">View Demo</a>
     
-<!--     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a> -->
-    
-<!--     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
   </p>
 </div>
+
+<!-- VIDEO EMBED -->
+<div align="center">
+  <p align="center">
+    Output Vedio
+  </p>
+  <iframe width="560" height="315" src="https://github.com/astro215/ResumeRevealer/edit/main/output/demo_output.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 ## Primary Challenge
 The primary challenge of the ResumeRevealer project is to develop a comprehensive resume parser capable of extracting detailed information from resumes in various formats, including PDF, JPG, HTML, DOC, etc. The parser should accurately classify text into distinct sections such as education, work experience, and skills. Additionally, it should sequence these sections based on dates wherever available.
