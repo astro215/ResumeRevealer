@@ -4,7 +4,6 @@ import json
 from langchain.chat_models import ChatOpenAI
 import shutil
 
-st.set_page_config(layout="wide")
 
 
 from utils import process_file_with_dedoc, extract_text_from_all_levels, generate_formatted_resume, generate_json_structured_resume, create_career_trajectory
@@ -23,6 +22,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 def home_page():
     # Home page title
+    st.set_page_config(layout="wide")
     st.title("Welcome to ResumeRevealer - Your Comprehensive Resume Parser!")
 
     # Introduction section
