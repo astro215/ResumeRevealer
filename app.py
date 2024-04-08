@@ -25,10 +25,13 @@ def home_page():
     st.title("Welcome to ResumeRevealer - Your Comprehensive Resume Parser!")
 
     # Introduction section
-    st.write("""
-    
-        ResumeRevealer](https://github.com/astro215/ResumeRevealer) is an advanced tool designed to extract detailed information from resumes in various formats such as PDF, HTML, JPG, DOC, and more. It aims to provide a comprehensive analysis of resumes, including categorizing text into distinct sections such as education, work experience, and skills.
-        Additionally, ResumeRevealer addresses several challenges to enhance resume parsing.""", unsafe_allow_html=True)
+    # Introduction section
+    st.markdown("""
+    <div style="margin-top: 20px; margin-bottom: 30px;">
+        <p style="font-size: 18px; text-align: center;">ResumeRevealer is an advanced tool designed to extract detailed information from resumes in various formats such as PDF, HTML, JPG, DOC, and more. It aims to provide a comprehensive analysis of resumes, including categorizing text into distinct sections such as education, work experience, and skills.</p>
+        <p style="font-size: 18px; text-align: center;">Additionally, ResumeRevealer addresses several challenges to enhance resume parsing:</p>
+    </div>
+    """, unsafe_allow_html=True)
     
     st.subtitle("Challenges section")
     st.subheader("Primary Challenges:")
@@ -209,7 +212,11 @@ def about():
 
 
 def main():
-    st.title("ResumeRevealer")
+    st.title("""
+<a href="https://github.com/astro215/ResumeRevealer" target="_blank" rel="noopener noreferrer">ResumeRevealer</a>
+""")
+
+
 
     tab1, tab2, tab3 = st.tabs(["Our Project", "Model", "About us"])
     with tab1:
