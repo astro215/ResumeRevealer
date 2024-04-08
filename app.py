@@ -22,7 +22,6 @@ os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 def home_page():
     # Home page title
-    st.set_page_config(layout="wide")
     st.title("Welcome to ResumeRevealer - Your Comprehensive Resume Parser!")
 
     # Introduction section
