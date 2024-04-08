@@ -25,12 +25,12 @@ def home_page():
     st.title("Welcome to ResumeRevealer - Your Comprehensive Resume Parser!")
 
     # Introduction section
-    st.markdown("""
+    st.write("""
     
-        ResumeRevealer](https://github.com/astro215/ResumeRevealer) is an advanced tool designed to extract detailed information from resumes in various formats such as PDF, HTML, JPG, DOC, and more. It aims to provide a comprehensive analysis of resumes, including categorizing text into distinct sections such as education, work experience, and skills.</p>
-        Additionally, ResumeRevealer addresses several challenges to enhance resume parsing.)
-
-    # Challenges section
+        ResumeRevealer](https://github.com/astro215/ResumeRevealer) is an advanced tool designed to extract detailed information from resumes in various formats such as PDF, HTML, JPG, DOC, and more. It aims to provide a comprehensive analysis of resumes, including categorizing text into distinct sections such as education, work experience, and skills.
+        Additionally, ResumeRevealer addresses several challenges to enhance resume parsing.""")
+    
+    st.subtitle("Challenges section")
     st.subheader("Primary Challenges:")
     st.markdown("""
     <div style="margin-bottom: 30px;">
