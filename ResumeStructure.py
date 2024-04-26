@@ -11,5 +11,6 @@ class ResumeStructure(BaseModel):
     projects: List[Dict[str, Union[str, List[str]]]] = Field(description="List of dictionaries containing "
                                                                          "'project_name', 'start_date', 'end_date', "
                                                                          "'description', and 'predicted_skills'")
-    skills: Dict[str, List[str]] = Field(description="Dictionary containing 'technical' and 'non_technical' skills")
+    skills: Dict[str, List[str]] = Field(description="Dictionary containing all  'Technical Skills' and 'Non Technical Skills'")
+    techstack: List[str] = Field(description="List of all technologies used in projects")
     career_trajectory: str = Field(description="String representing the career progression of the candidate")
